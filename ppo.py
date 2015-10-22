@@ -27,7 +27,6 @@ import numpy as np
 from hw_utils import Message, discount, explained_variance_1d
 from collections import OrderedDict
 import time, multiprocessing, itertools, sys
-from lbfgs import lbfgs
 from rl import rollout, pathlength, NoValueFunction, Policy
 import scipy.optimize
 
